@@ -3,9 +3,11 @@
  */
 
 //SENDEROS
-var Schema = require('mongoose').Schema
 
-var producto_schema = new Schema({
+let mongoose = require('mongoose');
+let Schema = require('mongoose').Schema
+
+let Sendero = new Schema({
     partida            :   String,
     fin                :   String,
     dificultad         :   String,
@@ -14,6 +16,7 @@ var producto_schema = new Schema({
     duracion           :   String,
     latitud            :   String,
     longitud           :   String
-})
+});
 
-module.exports = producto_schema
+
+module.exports = mongoose.model('Sendero', Sendero);
