@@ -4,7 +4,7 @@
 const Sendero = require('../models/senderos');
 
 exports.index = function (req, res) {
-    res.render('crud.ejs')
+    res.render('senderos_crud.ejs')
 
 }
 
@@ -27,7 +27,7 @@ exports.post = function (req, res) {
 
     sendero.save(function(err){
         console.log(err);
-        res.redirect('/crud')
+        res.redirect('/crud/senderos')
     });
 
 }

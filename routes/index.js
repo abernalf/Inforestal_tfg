@@ -2,12 +2,21 @@
 const express = require('express');
 const api = express.Router();
 const mongo = require('mongoose')
-const Controllers = require('../controllers/senderos');
+const senderos = require('../controllers/senderos');
+const parques = require('../controllers/parques');
 
 mongo.Promise = global.Promise;
 mongo.connect("mongodb://localhost/tfg");
 
-api.get('/crud', Controllers.index);
-api.post('/crud',Controllers.post)
+//-------------------------------------------------Senderos
+api.get('senderos', senderos.index);
+api.post('senderos',senderos.post);
+//-------------------------------------------------Parques
+api.get('parques', parques.index);
+api.post('parques',parques.post);
+
+api.get('/prueba',function (req,res) {
+    res.render('index')
+})
 
 module.exports = api;

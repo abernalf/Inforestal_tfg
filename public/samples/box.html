@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TopBiz - Responsive Corporate HTML5 Template</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Include All CSS -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+        <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css"/>
+        <link rel="stylesheet" type="text/css" href="css/rticons.css"/>
+        <link rel="stylesheet" type="text/css" href="css/settings.css"/>
+        <link rel="stylesheet" type="text/css" href="css/jquery.heroCarousel.css"/>
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
+        <link rel="stylesheet" type="text/css" href="css/js-image-slider.css"/>
+        <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="css/preset.css"/>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <link rel="stylesheet" type="text/css" href="css/responsive.css"/>
+        <link rel="stylesheet" type="text/css" href="css/animate.css"/>
+        <link id="layout" rel="stylesheet" type="text/css" href="css/colorpreset/box.css"/>
+        <link id="colorChem" rel="stylesheet" type="text/css" href="css/colorpreset/light.css"/>
+        <link id="colorsSet" rel="stylesheet" type="text/css" href="css/colorpreset/color1.css"/>
+
+        <!-- Favicon Icon -->
+        <link rel="icon"  type="image/png" href="images/favicon.png">
+        <!-- Favicon Icon -->
+
+        <!--[if lt IE 9]>
+            <script src="js/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <!-- Start Loader -->
+        <div class="loaderWrap">
+            <div id='loader'>
+                <div class='diamond'></div>
+                <div class='diamond'></div>
+                <div class='diamond'></div>
+            </div>
+        </div>
+        <!-- End Loader -->
+        <!-- Start Color Preset -->
+        <div class="presetArea hidden-xs">
+            <div class="switch">
+                <h5>Style <span>Selector</span></h5>
+                <a href="#" id="switches"><i class="icon-cog-outline"></i></a>
+            </div>
+            <div class="accentColor">
+                <p class="psTitle">Choose accent color:</p>
+                <a href="color1" class="active color1"></a>
+                <a href="color2" class="color2"></a>
+                <a href="color3" class="color3"></a>
+                <a href="color4" class="color4"></a>
+                <a href="color5" class="color5 noMarginRight"></a>
+                <a href="color6" class="color6"></a>
+                <a href="color7" class="color7"></a>
+                <a href="color8" class="color8"></a>
+                <a href="color9" class="color9"></a>
+                <a href="color10" class="color10 noMarginRight"></a>
+            </div>
+            <div class="colorChem">
+                <p class="psTitle">Choose color scheme:</p>
+                <a class="light active" href="light">Light</a>
+                <a class="dark" href="dark">Dark</a>
+            </div>
+            <div class="layoutstyle">
+                <p class="psTitle">Choose layout style:</p>
+                <a class="layouta wide active" href="wide">
+                    <img class="normalLay" src="images/preset/lay1.png" alt="">
+                    <img class="hoverLay" src="images/preset/lay1h.png" alt="">
+                    <span>Wide</span>
+                </a>
+                <a id="boxLayout" class="layouta box" href="box">
+                    <img class="normalLay" src="images/preset/lay2.png" alt="">
+                    <img class="hoverLay" src="images/preset/lay2h.png" alt="">
+                    <span>Box</span>
+                </a>
+            </div>
+            <div class="patterns">
+                <p class="psTitle">Choose pattern:</p>
+                <a href="bgOne" class="active bg1"></a>
+                <a href="bgTwo" class="bg2"></a>
+                <a href="bgThree" class="bg3"></a>
+                <a href="bgFour" class="bg4"></a>
+                <a href="bgFive" class="bg5"></a>
+            </div>
+        </div>
+        <!-- End Color Preset -->
+        <!--================= Box Div Start ==================-->
+        <div class="boxWrapper">
+            <!--================= Box Div Start ==================-->
+            <!-- Header Area -->
+            <header class="headerArea">
+                <div class="logo pull-left">
+                    <div class="logoImg">
+                        <a href="index.html"><img src="images/logo.png" alt=""></a>
+                    </div>
+                    <h2><a href="index.html">top<span>biz</span></a></h2>
+                </div>
+                <nav class="mainMenu pull-left">
+                    <div class="menuButton hidden-lg hidden-md">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul>                                                                                 
+                        <li class="active hasChild"><a href="index.html">Home</a>
+                            <ul class="dropMenu">
+                                <li><a href="index.html">Home One</a></li>
+                                <li><a href="index2.html">Home Two</a></li>
+                                <li><a href="index3.html">Home Three</a></li>
+                                <li><a href="index4.html">Home Four</a></li>
+                                <li><a href="dark.html">Dark Version</a></li>
+                                <li><a href="box.html">Box Version</a></li>
+                            </ul>
+                        </li>
+                        <li class="hasChild"><a href="folio1.html">Gallery</a>
+                            <ul class="dropMenu">
+                                <li><a href="folio1.html">Folio 1</a></li>
+                                <li><a href="folio2.html">Folio 2</a></li>
+                                <li><a href="folio2.html">Folio 3</a></li>
+                                <li><a href="folioSingle.html">Folio Single</a></li>
+                            </ul>
+                        </li>
+                        <li class="hasChild"><a href="blogGrid.html">Blog</a>
+                            <ul class="dropMenu">
+                                <li><a href="blogGrid.html">Blog Grid</a></li>
+                                <li><a href="blogSidebar.html">Blog Sidebar</a></li>
+                                <li><a href="blogSingle.html">Blog Single</a></li>
+                            </ul>
+                        </li>
+                        <li class="hasChild"><a href="#">Pages</a>
+                            <ul class="dropMenu">
+                                <li><a href="member.html">member</a></li>
+                                <li><a href="404.html">404</a></li>
+                                <li class="hasChild"><a href="event.html">event</a>
+                                    <ul class="dropSub">
+                                        <li><a href="event.html">Event</a></li>
+                                        <li><a href="eventSingle.html">Event Single</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="about.html">about</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="topSocial pull-right">
+                    <ul>
+                        <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a class="google" href="#"><i class="fa fa-google"></i></a></li>
+                    </ul>
+                </div>
+                <div class="clearfix"></div>
+            </header>
+            <!-- Slider Section -->
+            <section class="sliderArea" data-currentslide="activRev_1">
+                <div class="tp-banner1">
+                    <ul>
+                        <li data-transition="boxslide" data-slotamount="7" data-masterspeed="1000" >
+                            <img src="images/home1/slider1.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                            <div class="tp-caption lightgrey_divider lft fadeout"
+                                 data-x="left"
+                                 data-y="235"
+                                 data-speed="1400"
+                                 data-start="1300"
+                                 data-easing="Power4.easeOut">
+                                <p class="redCaption">Ultimate, Multipurpose Business</p>
+                            </div>
+                            <div class="tp-caption lightgrey_divider lfr fadeout"
+                                 data-x="left"
+                                 data-y="266"
+                                 data-speed="1400"
+                                 data-start="1300"
+                                 data-easing="Power4.easeOut">
+                                <h1 class="headCaption">.HTML5<span>Template</span></h1>
+                            </div>
+                            <div class="tp-caption lightgrey_divider lfl fadeout"
+                                 data-x="left"
+                                 data-y="395"
+                                 data-speed="1400"
+                                 data-start="1300"
+                                 data-easing="easeInOutElastic">
+                                <p class="capItalic">
+                                    Consetetur sadipscing elitr, sed diam nonumy 
+                                    eirmod tempor invidunt ut labore et <br> dolore magna aliquyam erat, 
+                                    sed diam voluptua.
+                                </p>
+                            </div>
+                            <div class="tp-caption lightgrey_divider lfb fadeout"
+                                 data-x="left"
+                                 data-y="460"
+                                 data-speed="1400"
+                                 data-start="1300"
+                                 data-easing="Power4.easeOut">
+                                <a href="#" class="sliderBtn"><i class="icon-bulb"></i><span>Learn More</span></a>
+                            </div>
+                            <div class="tp-caption lightgrey_divider lft resFix fadeout"
+                                 data-x="right"
+                                 data-y="75"
+                                 data-speed="1400"
+                                 data-start="1300"
+                                 data-easing="easeOutBack">
+                                <div class="sliderImg">
+                                    <img src="images/home1/sldCap1.png" alt="ThemeWar">
+                                </div>
+                            </div>
+                        </li>
+                        <li  data-transition="curtain-3" data-slotamount="7" data-masterspeed="1000" >
+                            <img src="images/home1/slider2.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                            <div class="tp-caption lightgrey_divider lft fadeout"
+                                 data-x="left"
+                                 data-y="235"
+                                 data-speed="1400"
+                                 data-start="1300"
+                                 data-easing="Power4.easeOut">
+                                <p class="redCaption">Ultimate, Multipurpose Business</p>
+                            </div>
+                            <div class="tp-caption lightgrey_divider lfr fadeout"
+                                 data-x="left"
+                                 data-y="266"
+                                 data-speed="1400"
+                                 data-start="1300"
+                                 data-easing="Power4.easeOut">
+                                <h1 class="headCaption">.HTML5<span>Template</span></h1>
+                            </div>
+                            <div class="tp-caption lightgrey_divider lfl fadeout"
+                                 data-x="left"
+                                 data-y="395"
+                                 data-speed="1400"
+                                 data-start="1300"
+                                 data-easing="easeInOutElastic">
+                                <p class="capItalic">
+                                    Consetetur sadipscing elitr, sed diam nonumy 
+                                    eirmod tempor invidunt ut labore et <br> dolore magna aliquyam erat, 
+                                    sed diam voluptua.
+                                </p>
+                            </div>
+                            <div class="tp-caption lightgrey_divider lfb fadeout"
+                                 data-x="left"
+                                 data-y="460"
+                                 data-speed="1400"
+                                 data-start="1300"
+                                 data-easing="Power4.easeOut">
+                                <a href="#" class="sliderBtn"><i class="icon-bulb"></i><span>Learn More</span></a>
+                            </div>
+                            <div class="tp-caption lightgrey_divider lft resFix fadeout"
+                                 data-x="right"
+                                 data-y="75"
+                                 data-speed="1400"
+                                 data-start="1300"
+                                 data-easing="easeOutBack">
+                                <div class="sliderImg two">
+                                    <img src="images/home2/sldCap2.png" alt="ThemeWar">
+                                </div>
+                            </div>
+                        </li>
+                        <li  data-transition="slotslide-horizontal" data-slotamount="7" data-masterspeed="1000" >
+                            <img src="images/home1/slider3.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                            <div class="tp-caption lightgrey_divider lft fadeout"
+                                 data-x="left"
+                                 data-y="235"
+                                 data-speed="1400"
+                                 data-start="1300"
+                                 data-easing="Power4.easeOut">
+                                <p class="redCaption">Ultimate, Multipurpose Business</p>
+                            </div>
+                            <div class="tp-caption lightgrey_divider lfr fadeout"
+                                 data-x="left"
+                                 data-y="266"
+                                 data-speed="1400"
+                                 data-start="1300"
+                                 data-easing="Power4.easeOut">
+                                <h1 class="headCaption">.HTML5<span>Template</span></h1>
+                            </div>
+                            <div class="tp-caption lightgrey_divider lfl fadeout"
+                                 data-x="left"
+                                 data-y="395"
+                                 data-speed="1400"
+                                 data-start="1300"
+                                 data-easing="easeInOutElastic">
+                                <p class="capItalic">
+                                    Consetetur sadipscing elitr, sed diam nonumy 
+                                    eirmod tempor invidunt ut labore et <br> dolore magna aliquyam erat, 
+                                    sed diam voluptua.
+                                </p>
+                            </div>
+                            <div class="tp-caption lightgrey_divider lfb fadeout"
+                                 data-x="left"
+                                 data-y="460"
+                                 data-speed="1400"
+                                 data-start="1300"
+                                 data-easing="Power4.easeOut">
+                                <a href="#" class="sliderBtn"><i class="icon-bulb"></i><span>Learn More</span></a>
+                            </div>
+                            <div class="tp-caption lightgrey_divider lft resFix fadeout"
+                                 data-x="right"
+                                 data-y="75"
+                                 data-speed="1400"
+                                 data-start="1300"
+                                 data-easing="easeOutBack">
+                                <div class="sliderImg three">
+                                    <img src="images/home3/sldCap3.png" alt="ThemeWar">
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!-- Feature Section -->
+            <section class="featureArea commonSection firstHome">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-sm-6 col-xs-12 text-center wow fadeInUp" data-wow-duration="700ms" data-wow-delay="300ms">
+                            <div class="featureImg">
+                                <img src="images/home1/feature1.png" alt="">
+                            </div>
+                            <div class="featureContent">
+                                <h3><a href="#">Easy <span>Customize</span></a></h3>
+                                <p>At vero eos et accusam et justo duo dolores et ea rebum.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-xs-12 text-center wow fadeInUp" data-wow-duration="700ms" data-wow-delay="350ms">
+                            <div class="featureImg">
+                                <img src="images/home1/feature2.png" alt="">
+                            </div>
+                            <div class="featureContent">
+                                <h3><a href="#">Unique <span>Design</span></a></h3>
+                                <p>Stet clita kasd gubergren no takimata sanctus est lorem ipsum.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-xs-12 text-center wow fadeInUp" data-wow-duration="700ms" data-wow-delay="400ms">
+                            <div class="featureImg">
+                                <img src="images/home1/feature3.png" alt="">
+                            </div>
+                            <div class="featureContent">
+                                <h3><a href="#">Retina <span>Ready</span></a></h3>
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr sed diam.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-xs-12 text-center wow fadeInUp" data-wow-duration="700ms" data-wow-delay="450ms">
+                            <div class="featureImg">
+                                <img src="images/home1/feature4.png" alt="">
+                            </div>
+                            <div class="featureContent">
+                                <h3><a href="#">24/7 <span>Support</span></a></h3>
+                                <p>Nonumy eirmod tempor invidunt ut labore et dolore magna.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Carousel Section -->
+                <div class="caroselArea wow fadeInUp" data-wow-duration="700ms" data-wow-delay="300ms">
+                    <div class="imageCaros center">
+                        <div class="singleCaros">
+                            <img src="images/home/caro1.jpg" alt=""/>
+                        </div>
+                        <div class="singleCaros">
+                            <img src="images/home/caro2.jpg" alt=""/>
+                        </div>
+                        <div class="singleCaros">
+                            <img src="images/home/caro3.jpg" alt=""/>
+                        </div>
+                        <div class="singleCaros">
+                            <img src="images/home/caro4.jpg" alt=""/>
+                        </div>
+                        <div class="singleCaros">
+                            <img src="images/home/caro5.jpg" alt=""/>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <!-- Testimonial Section -->
+                <div class="testimonialFirstHome">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-10 col-lg-offset-1 col-sm-offset-1 col-sm-10 col-xs-12 text-center">
+                                <div class="singleTesti wow fadeInUp" data-wow-duration="700ms" data-wow-delay="300ms">
+                                    <h2>People<img class="testiImg" src="images/logoBig.png" alt="">Top<span>Biz</span></h2>
+                                </div>
+                                <div class="quote wow fadeInUp" data-wow-duration="700ms" data-wow-delay="350ms">
+                                    <p class="quotation">
+                                        Lorem ipsum dolor siamet consetetur sadipscing elitr, sed diam 
+                                        nonumy eirmod tempor inviduntut labore et dolore magna aliquyam erat
+                                    </p>
+                                    <div class="clientTestiImg">
+                                        <img src="images/home/testi.jpg" alt="">
+                                    </div>
+                                    <p class="name">-  <span>Jason</span> Willis  -</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Service Section -->
+            <section class="serviceArea commonSection">
+                <div class="overlay"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-4 col-xs-12 wow fadeInUp" data-wow-duration="700ms" data-wow-delay="300ms">
+                            <div class="singleService first">
+                                <div class="serviceContent pull-left text-right">
+                                    <h4><a href="#">Web <span>Design</span></a></h4>
+                                    <p>At vero eos et accusam et justo duo</p>
+                                </div>
+                                <div class="serviceIcon pull-right">
+                                    <i class="icon-pen2"></i>
+                                </div>
+                            </div>
+                            <div class="singleService">
+                                <div class="serviceContent pull-left text-right">
+                                    <h4><a href="#">Pure <span>Code</span></a></h4>
+                                    <p>Dolores et ea rebum stet clita kasd</p>
+                                </div>
+                                <div class="serviceIcon pull-right">
+                                    <i class="fa fa-code"></i>
+                                </div>
+                            </div>
+                            <div class="singleService">
+                                <div class="serviceContent pull-left text-right">
+                                    <h4><a href="#">SEO <span>Research</span></a></h4>
+                                    <p>Stet clita kasd gubergren no sea</p>
+                                </div>
+                                <div class="serviceIcon pull-right">
+                                    <i class="icon-search3"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-4 col-xs-12 wow fadeInUp" data-wow-duration="700ms" data-wow-delay="350ms">
+                            <div class="serviceImg">
+                                <img src="images/home1/mobile.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-4 col-xs-12 wow fadeInUp" data-wow-duration="700ms" data-wow-delay="400ms">
+                            <div class="singleService first">
+                                <div class="serviceIcon pull-left">
+                                    <i class="icon-bubble"></i>
+                                </div>
+                                <div class="serviceContent pull-right text-left">
+                                    <h4><a href="#">Business <span>Consults</span></a></h4>
+                                    <p>Takimata sanctus est lorem ipsum</p>
+                                </div>
+                            </div>
+                            <div class="singleService right">
+                                <div class="serviceIcon pull-left">
+                                    <i class="icon-user3"></i>
+                                </div>
+                                <div class="serviceContent pull-right text-left">
+                                    <h4><a href="#">Top <span>Management</span></a></h4>
+                                    <p>Dolor sit amet. Lorem ipsum dolor sit</p>
+                                </div>
+                            </div>
+                            <div class="singleService">
+                                <div class="serviceIcon pull-left">
+                                    <i class="icon-thumbs-up"></i>
+                                </div>
+                                <div class="serviceContent pull-right text-left">
+                                    <h4><a href="#">Best <span>Support</span></a></h4>
+                                    <p>Amet consetetur sadipscing elitr</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Portfolio Section -->
+            <section class="tabsGroupArea commonSection">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-sm-12 col-xs-12">
+                            <div class="tabsContent">
+                                <!-- Nav tabs -->
+                                <ul class="tabNavs text-center wow fadeInUp" data-wow-duration="700ms" data-wow-delay="300ms" role="tablist">
+                                    <li role="presentation" class="active"><a href="#about" aria-controls="about" role="tab" data-toggle="tab"><span><i class="icon-bulb"></i></span>About</a></li>
+                                    <li role="presentation"><a href="#testimonials" aria-controls="testimonials" role="tab" data-toggle="tab"><span><i class="icon-bubble"></i></span>Testimonials</a></li>
+                                    <li role="presentation"><a href="#member" aria-controls="member" role="tab" data-toggle="tab"><span><i class="icon-diamond2"></i></span>Members</a></li>
+                                    <li role="presentation"><a href="#newsletter" aria-controls="newsletter" role="tab" data-toggle="tab"><span><i class="icon-pen2"></i></span>Newsletters</a></li>
+                                </ul>
+                                <!-- Tab panes -->
+                                <div class="tab-content wow fadeInUp" data-wow-duration="700ms" data-wow-delay="350ms">
+                                    <div role="tabpanel" class="tab-pane active firstTab" id="about">
+                                        <div class="row">
+                                            <div class="col-lg-offset-1 col-lg-3 col-sm-4 col-xs-12">
+                                                <div class="singleTabContent text-right">
+                                                    <h2>Nam liber tempor</h2>
+                                                    <p>Atvero eoset accusam et justo duo dolores et ea rebum</p>
+                                                </div>
+                                                <div class="singleTabContent text-right">
+                                                    <h2>Soluta nobis</h2>
+                                                    <p>Stet clita kasd gubergren, no sea takimata sanctus ipsum</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-sm-4 col-xs-12 posRele">
+                                                <div class="aboutTabImg">
+                                                    <img src="images/home/tabImg.png" alt="" />
+                                                </div>
+                                                <a href="#" class="allFeatureBtn text-center">
+                                                    All Features
+                                                </a>
+                                            </div>
+                                            <div class="col-lg-3 col-sm-4 col-xs-12">
+                                                <div class="singleTabContent text-left">
+                                                    <h2>Eleifend otion</h2>
+                                                    <p>Dolor sitmet lorem ipsum dolor sit amet, consetetur elitr</p>
+                                                </div>
+                                                <div class="singleTabContent text-left">
+                                                    <h2>Ongue imperdiet</h2>
+                                                    <p>Diam nonumy eirmodpor inviduntu labore et dolore magna.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane secondTab" id="testimonials">
+                                        <div class="row">
+                                            <div class="col-lg-10 col-lg-offset-1 col-sm-offset-1 col-sm-10 col-xs-12 text-center">
+                                                <div id="testiCarousel" class="carousel slide" data-ride="carousel">
+                                                    <!-- Indicators -->
+                                                    <ol class="carousel-indicators">
+                                                        <li data-target="#testiCarousel" data-slide-to="0" class="active"></li>
+                                                        <li data-target="#testiCarousel" data-slide-to="1"></li>
+                                                        <li data-target="#testiCarousel" data-slide-to="2"></li>
+                                                    </ol>
+                                                    <!-- Wrapper for slides -->
+                                                    <div class="carousel-inner" role="listbox">
+                                                        <div class="item active">
+                                                            <div class="singleTestiImg">
+                                                                <img src="images/home/tabTesti.jpg" alt=""/>
+                                                            </div>
+                                                            <div class="quote">
+                                                                <p class="quotation">
+                                                                    Lorem ipsum dolor siamet consetetur sadipscing elitr, sed diam 
+                                                                    nonumy eirmod tempor inviduntut labore et dolore magna aliquyam erat
+                                                                </p>
+                                                                <p class="name">-  <span>Jason</span> Willis  -</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="item">
+                                                            <div class="singleTestiImg">
+                                                                <img src="images/home/tabTesti2.jpg" alt=""/>
+                                                            </div>
+                                                            <div class="quote">
+                                                                <p class="quotation">
+                                                                    Lorem ipsum dolor siamet consetetur sadipscing elitr, sed diam 
+                                                                    nonumy eirmod tempor inviduntut labore et dolore magna aliquyam erat
+                                                                </p>
+                                                                <p class="name">-  <span>Jason</span> Willis  -</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="item">
+                                                            <div class="singleTestiImg">
+                                                                <img src="images/home/tabTesti3.jpg" alt=""/>
+                                                            </div>
+                                                            <div class="quote">
+                                                                <p class="quotation">
+                                                                    Lorem ipsum dolor siamet consetetur sadipscing elitr, sed diam 
+                                                                    nonumy eirmod tempor inviduntut labore et dolore magna aliquyam erat
+                                                                </p>
+                                                                <p class="name">-  <span>Jason</span> Willis  -</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane thirdTab" id="member">
+                                        <div class="row">
+                                            <div class="col-lg-3 col-sm-6 col-xs-12 text-center">
+                                                <div class="sinlgeTeam">
+                                                    <div class="teamImg">
+                                                        <img src="images/about/team1.jpg" alt="">
+                                                    </div>
+                                                    <div class="teamDetails">
+                                                        <h3>Michael Bean</h3>
+                                                        <h5>director</h5>
+                                                        <p>Consetetur sadipscing elitr sed diam nonumy.</p>
+                                                        <div class="topSocial text-center">
+                                                            <ul>
+                                                                <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+                                                                <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+                                                                <li><a href="#" class="google"><i class="fa fa-google"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-sm-6 col-xs-12 text-center">
+                                                <div class="sinlgeTeam">
+                                                    <div class="teamImg">
+                                                        <img src="images/about/team2.jpg" alt="">
+                                                    </div>
+                                                    <div class="teamDetails">
+                                                        <h3>James Smart</h3>
+                                                        <h5>Founder</h5>
+                                                        <p>Invidunt labore et dolore magna aliquyam.</p>
+                                                        <div class="topSocial text-center">
+                                                            <ul>
+                                                                <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+                                                                <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+                                                                <li><a href="#" class="google"><i class="fa fa-google"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-sm-6 col-xs-12 text-center">
+                                                <div class="sinlgeTeam">
+                                                    <div class="teamImg">
+                                                        <img src="images/about/team3.jpg" alt="">
+                                                    </div>
+                                                    <div class="teamDetails">
+                                                        <h3>Jinney Bay</h3>
+                                                        <h5>manager</h5>
+                                                        <p>Consetetur sadipscing elitr sed diam nonumy.</p>
+                                                        <div class="topSocial text-center">
+                                                            <ul>
+                                                                <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+                                                                <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+                                                                <li><a href="#" class="google"><i class="fa fa-google"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-sm-6 col-xs-12 text-center">
+                                                <div class="sinlgeTeam">
+                                                    <div class="teamImg">
+                                                        <img src="images/about/team4.jpg" alt="">
+                                                    </div>
+                                                    <div class="teamDetails">
+                                                        <h3>Samuel Dean</h3>
+                                                        <h5>ceo</h5>
+                                                        <p>Invidunt labore et dolore magna aliquyam.</p>
+                                                        <div class="topSocial text-center">
+                                                            <ul>
+                                                                <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+                                                                <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+                                                                <li><a href="#" class="google"><i class="fa fa-google"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane forthTab" id="newsletter">
+                                        <div class="row">
+                                            <div class="col-lg-12 col-sm-12 col-xs-12 text-center">
+                                                <div class="subsForm">
+                                                    <h4>Sign up to <span>our newsletter</span></h4>
+                                                    <form action="#" id="subscribeForm" method="post">
+                                                        <input type="email" name="sub_email" id="subs_email">
+                                                        <button type="submit"><i class="icon-pen2"></i></button>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Skill Section -->
+            <section class="skillArea commonSection">
+                <div class="overlay"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-sm-12 col-xs-12 text-center">
+                            <h2 class="commonTittle white wow fadeInUp" data-wow-duration="700ms" data-wow-delay="300ms">Our<span>skills</span></h2>
+                            <p class="subTittle wow fadeInUp" data-wow-duration="700ms" data-wow-delay="350ms">Lorem ipsum dolor amet consetetur sadipscing elitr</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-12 col-xs-12 text-center">
+                            <div class="singleSkill wow fadeInUp" data-wow-duration="700ms" data-wow-delay="300ms">
+                                <div class="skillOne cmskill" data-skills="0.9" data-gradientstart="#DF3F31" data-gradientend="#FBC877"><strong></strong></div>
+                                <p>html,css</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-12 col-xs-12 text-center">
+                            <div class="singleSkill wow fadeInUp" data-wow-duration="700ms" data-wow-delay="350ms">
+                                <div class="skillTwo cmskill" data-skills="0.95" data-gradientstart="#DF3F31" data-gradientend="#FBC877"><strong></strong></div>
+                                <p>wordpress</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-12 col-xs-12 text-center">
+                            <div class="singleSkill wow fadeInUp" data-wow-duration="700ms" data-wow-delay="400ms">
+                                <div class="skillThree cmskill" data-skills="0.63" data-gradientstart="#DF3F31" data-gradientend="#FBC877"><strong></strong></div>
+                                <p>photoshop</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Blog Section -->
+            <section class="blogArea commonSection">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-sm-12 col-xs-12 text-center">
+                            <h2 class="commonTittle wow fadeInUp" data-wow-duration="700ms" data-wow-delay="300ms">recent<span>posts</span></h2>
+                            <p class="subTittle wow fadeInUp" data-wow-duration="700ms" data-wow-delay="350ms">Sed diam nonumy eirmod tempor invidunt</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-6 col-xs-12 text-center">
+                            <div class="blogCotent wow fadeInUp" data-wow-duration="700ms" data-wow-delay="300ms">
+                                <div class="postThumb first">
+                                    <img src="images/home1/blog1.jpg" alt="">
+                                    <div class="postDate">
+                                        <h1>18</h1>
+                                        <p>October</p>
+                                        <a href="#">7 comments</a>
+                                    </div>
+                                </div>
+                                <div class="postContent">
+                                    <h3><a href="blogSingle.html">Consetetur sadipscing elitr</a></h3>
+                                    <p>
+                                        Stet clita kasd gubergren no takimoata sanctus est lorem 
+                                        ipsum dolor sit amet lorem ipsum dolor sit amet.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-6 col-xs-12 text-center">
+                            <div class="blogCotent wow fadeInUp" data-wow-duration="700ms" data-wow-delay="300ms">
+                                <div class="postThumb right">
+                                    <img src="images/home1/blog2.jpg" alt="">
+                                    <div class="postDate">
+                                        <h1>09</h1>
+                                        <p>October</p>
+                                        <a href="#">5 comments</a>
+                                    </div>
+                                </div>
+                                <div class="postContent">
+                                    <h3><a href="blogSingle.html">Sed diam nonumy</a></h3>
+                                    <p>
+                                        Consetetur sadipscing elitr, sed diam nonumy eirmod tempor 
+                                        invidunt ut labore et dolore magna aliquyam erat, 
+                                        sed diam voluptua.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="blogCotent last wow fadeInUp" data-wow-duration="700ms" data-wow-delay="300ms">
+                                <div class="postThumb right">
+                                    <img src="images/home1/blog3.jpg" alt="">
+                                    <div class="postDate">
+                                        <h1>02</h1>
+                                        <p>October</p>
+                                        <a href="#">12 comments</a>
+                                    </div>
+                                </div>
+                                <div class="postContent">
+                                    <h3><a href="blogSingle.html">Eirmod tempor invidunt</a></h3>
+                                    <p>
+                                        At vero eos et accusam et justo duo dolores et ea rebum. 
+                                        cl gubergren no sea takimata sanctus est
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Subscribe Section -->
+            <section class="subscribeArea">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-sm-12 col-xs-12 text-center">
+                            <div class="subsForm">
+                                <h4 class="wow fadeInUp" data-wow-duration="700ms" data-wow-delay="300ms">Sign up to <span>our newsletter</span></h4>
+                                <form action="#" id="subscribeForm" method="post" class="wow fadeInUp" data-wow-duration="700ms" data-wow-delay="350ms">
+                                    <input type="email" name="sub_email" id="subs_email">
+                                    <button type="submit"><i class="icon-pen2"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Footer Section -->
+            <footer class="footerArea">
+                <section class="footerTop commonSection">
+                    <div class="overlay"></div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 col-sm-12 col-xs-12 text-center">
+                                <div class="footerContent">
+                                    <h2 class="wow fadeInUp" data-wow-duration="700ms" data-wow-delay="300ms">8 (800) 695-2684</h2>
+                                    <a class="wow fadeInUp" data-wow-duration="700ms" data-wow-delay="350ms" href="mailto:info@topbiz.com">info@topbiz.com</a>
+                                    <p class="wow fadeInUp" data-wow-duration="700ms" data-wow-delay="400ms">Santa Monica Blvd, Los Angeles, CA 97845, US</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="copyRight">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 col-sm-12 col-xs-12 text-center wow fadeInUp" data-wow-duration="700ms" data-wow-delay="300ms">
+                                <p>Copyright &copy; 2015 by <a href="http://themewar.com">ThemeWar</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </footer>
+            <!--================= Box Div End ==================-->
+        </div>
+        <!--================= Box Div End ==================-->
+        <!--================= Back To Top ==================-->
+        <a href="#" id="backto"><img src="images/backto.png" alt=""></a>
+        <!-- Include All JS -->
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+        <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+        <script type="text/javascript" src="js/mixer.js"></script>
+        <script type="text/javascript" src="js/appear.js"></script>
+        <script type="text/javascript" src="js/circle-progress.js"></script>
+        <script type="text/javascript" src="js/modernizr.custom.js"></script>
+        <script type="text/javascript" src="js/directionHover.js"></script>
+        <script type="text/javascript" src="js/js-image-slider.js"></script>
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+        <script type="text/javascript" src="js/gmaps.js"></script>
+        <script type="text/javascript" src="js/jquery.themepunch.tools.min.js"></script>
+        <script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>
+        <script type="text/javascript" src="js/wow.min.js"></script>
+        <script type="text/javascript" src="js/slick.js"></script>
+        <script type="text/javascript" src="js/theme.js"></script>
+    </body>
+</html>
