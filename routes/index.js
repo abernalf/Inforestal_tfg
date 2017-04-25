@@ -9,14 +9,14 @@ mongo.Promise = global.Promise;
 mongo.connect("mongodb://localhost/tfg");
 
 //-------------------------------------------------Senderos
-api.get('senderos', senderos.index);
-api.post('senderos',senderos.post);
+api.get('/senderos', senderos.index);
+api.post('/senderos',senderos.post);
 //-------------------------------------------------Parques
-api.get('parques', parques.index);
-api.post('parques',parques.post);
+api.get('/parques', parques.index);
+api.post('/parques',parques.post);
 
 api.get('/prueba',function (req,res) {
-    res.render('index')
+    res.render('includes/head')
 })
 
 module.exports = api;

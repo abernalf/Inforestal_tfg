@@ -2,547 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21975e23-d3d0-4687-ba13-7c83d313f862" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/rt-icons.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/rt-icons.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/rt-icons.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/about/minus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/about/minusDark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/about/plus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/about/plusDark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/about/team1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/about/team2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/about/team3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/about/team4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/about/thumb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/backto.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/blogGrid/thumb1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/blogGrid/thumb2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/blogGrid/thumb3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/blogGrid/thumb4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/blogGrid/thumb5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/blogGrid/thumb6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/blogSidebar/leftThmb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/blogSidebar/thumb1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/blogSidebar/thumb2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/blogSidebar/widget1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/blogSidebar/widget2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/blogSidebar/widget3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/blogSingle/author.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/blogSingle/comment1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/blogSingle/comment2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/blogSingle/comment3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/blogSingle/comment4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/blogSingle/comment5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/blogSingle/leftThumb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/blogSingle/thumb1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/diagonal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/diagonalDark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/events/singleEvent.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/events/thumb1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/events/thumb2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/events/thumb3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/events/thumb4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/events/thumb5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/events/thumb6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/favicon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/folio1/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/folio1/10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/folio1/11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/folio1/12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/folio1/13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/folio1/14.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/folio1/15.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/folio1/16.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/folio1/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/folio1/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/folio1/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/folio1/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/folio1/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/folio1/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/folio1/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/folio1/9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/folio1/breadBg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/folio2/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/folio2/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/folio2/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/folio2/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/folio2/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/folio2/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/folio2/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/folio2/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/folio2/9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/folio3/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/folio3/10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/folio3/11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/folio3/12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/folio3/13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/folio3/14.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/folio3/15.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/folio3/16.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/folio3/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/folio3/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/folio3/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/folio3/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/folio3/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/folio3/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/folio3/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/folio3/9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/folioSingle/thumb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/folioSingle/thumb2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/folioSingle/thumb3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/folioSingle/thumb4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/folioSingle/thumb5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home/caro1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home/caro2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home/caro3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home/caro4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home/caro5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home/tabImg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home/tabTesti.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home/tabTesti2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home/tabTesti3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home/testi.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home1/blog1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home1/blog2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home1/blog3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home1/feature1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home1/feature2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home1/feature3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home1/feature4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home1/folio1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home1/folio10h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home1/folio11h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home1/folio12h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home1/folio13h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home1/folio14h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home1/folio15h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home1/folio16h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home1/folio1h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home1/folio2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home1/folio2h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home1/folio3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home1/folio3h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home1/folio4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home1/folio4h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home1/folio5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home1/folio5h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home1/folio6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home1/folio6h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home1/folio7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home1/folio7h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home1/folio8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home1/folio8h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home1/folio9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home1/folio9h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home1/footerBg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home1/footerBgbk.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home1/mobile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home1/nfolio.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home1/serviceBg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home1/serviceBgbk.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home1/skillBg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home1/skillBgbk.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home1/sldCap1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home1/slider1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home1/slider2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home1/slider3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home1/slider4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home2/blog1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home2/blog2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home2/blog3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home2/blog4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home2/blog5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home2/blog6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home2/folio1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home2/folio2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home2/folio3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home2/folio4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home2/folio5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home2/folio6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home2/folio7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home2/folio8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home2/sldCap2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home3/folio1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home3/folio2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home3/folio3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home3/folio4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home3/folio5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home3/folio6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/home3/sldCap3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/logoBig.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/member/funfactBg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/member/thumb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/member/thumb2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/member/thumb3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/member/thumb4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/member/thumb5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/preset/box/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/preset/box/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/preset/box/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/preset/box/4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/preset/box/5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/preset/lay1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/preset/lay1h.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/preset/lay2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/preset/lay2h.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/rectangle/blog.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/rectangle/contact.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/rectangle/dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/rectangle/feature.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/rectangle/featureDark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/rectangle/folio1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/rectangle/member.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/rectangle/service.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/rectangle/skill.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/rectangle/slider.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/rectangle/slider2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/rectangle/slider3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/rectangle/testi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/fonts/rt-icons.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/fonts/rt-icons.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/fonts/rt-icons.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/about/minus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/about/minusDark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/about/plus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/about/plusDark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/about/team1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/about/team2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/about/team3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/about/team4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/about/thumb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/backto.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/blogGrid/thumb1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/blogGrid/thumb2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/blogGrid/thumb3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/blogGrid/thumb4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/blogGrid/thumb5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/blogGrid/thumb6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/blogSidebar/leftThmb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/blogSidebar/thumb1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/blogSidebar/thumb2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/blogSidebar/widget1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/blogSidebar/widget2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/blogSidebar/widget3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/blogSingle/author.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/blogSingle/comment1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/blogSingle/comment2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/blogSingle/comment3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/blogSingle/comment4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/blogSingle/comment5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/blogSingle/leftThumb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/blogSingle/thumb1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/diagonal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/diagonalDark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/events/singleEvent.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/events/thumb1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/events/thumb2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/events/thumb3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/events/thumb4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/events/thumb5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/events/thumb6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/favicon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/folio1/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/folio1/10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/folio1/11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/folio1/12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/folio1/13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/folio1/14.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/folio1/15.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/folio1/16.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/folio1/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/folio1/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/folio1/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/folio1/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/folio1/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/folio1/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/folio1/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/folio1/9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/folio1/breadBg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/folio2/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/folio2/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/folio2/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/folio2/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/folio2/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/folio2/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/folio2/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/folio2/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/folio2/9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/folio3/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/folio3/10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/folio3/11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/folio3/12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/folio3/13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/folio3/14.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/folio3/15.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/folio3/16.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/folio3/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/folio3/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/folio3/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/folio3/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/folio3/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/folio3/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/folio3/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/folio3/9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/folioSingle/thumb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/folioSingle/thumb2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/folioSingle/thumb3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/folioSingle/thumb4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/folioSingle/thumb5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home/caro1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home/caro2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home/caro3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home/caro4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home/caro5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home/tabImg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home/tabTesti.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home/tabTesti2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home/tabTesti3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home/testi.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home1/blog1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home1/blog2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home1/blog3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home1/feature1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home1/feature2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home1/feature3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home1/feature4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home1/folio1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home1/folio10h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home1/folio11h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home1/folio12h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home1/folio13h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home1/folio14h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home1/folio15h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home1/folio16h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home1/folio1h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home1/folio2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home1/folio2h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home1/folio3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home1/folio3h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home1/folio4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home1/folio4h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home1/folio5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home1/folio5h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home1/folio6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home1/folio6h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home1/folio7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home1/folio7h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home1/folio8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home1/folio8h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home1/folio9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home1/folio9h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home1/footerBg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home1/footerBgbk.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home1/mobile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home1/nfolio.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home1/serviceBg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home1/serviceBgbk.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home1/skillBg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home1/skillBgbk.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home1/sldCap1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home1/slider1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home1/slider2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home1/slider3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home1/slider4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home2/blog1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home2/blog2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home2/blog3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home2/blog4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home2/blog5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home2/blog6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home2/folio1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home2/folio2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home2/folio3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home2/folio4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home2/folio5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home2/folio6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home2/folio7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home2/folio8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home2/sldCap2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home3/folio1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home3/folio2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home3/folio3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home3/folio4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home3/folio5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home3/folio6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/home3/sldCap3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/logoBig.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/member/funfactBg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/member/thumb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/member/thumb2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/member/thumb3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/member/thumb4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/member/thumb5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/preset/box/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/preset/box/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/preset/box/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/preset/box/4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/preset/box/5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/preset/lay1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/preset/lay1h.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/preset/lay2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/preset/lay2h.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/rectangle/blog.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/rectangle/contact.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/rectangle/dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/rectangle/feature.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/rectangle/featureDark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/rectangle/folio1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/rectangle/member.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/rectangle/service.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/rectangle/skill.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/rectangle/slider.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/rectangle/slider2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/rectangle/slider3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/images/rectangle/testi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/parques.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/parques_recreativos.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/animate.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/colorpreset/box.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/colorpreset/color1.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/colorpreset/color10.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/colorpreset/color2.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/colorpreset/color3.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/colorpreset/color4.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/colorpreset/color5.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/colorpreset/color6.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/colorpreset/color7.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/colorpreset/color8.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/colorpreset/color9.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/colorpreset/dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/colorpreset/light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/colorpreset/wide.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/js-image-slider.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/preset.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/prettyPhoto.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/responsive.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/rticons.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/settings.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/slick.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/rt-icons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/appear.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/circle-progress.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/directionHover.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/gmaps.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/html5shiv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/jquery.prettyPhoto.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/jquery.themepunch.revolution.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/jquery.themepunch.tools.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/js-image-slider.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/mixer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/modernizr.custom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/slick.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/theme.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/wow.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/samples/404.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/samples/about.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/samples/blogGrid.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/samples/blogSidebar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/samples/blogSingle.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/samples/box.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/samples/contact.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/samples/dark.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/samples/event.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/samples/eventSingle.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/samples/folio1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/samples/folio2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/samples/folio3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/samples/folioSingle.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/samples/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/samples/index2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/samples/index3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/samples/index4.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/samples/member.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/samples/subscribe.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/css/animate.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/css/colorpreset/box.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/css/colorpreset/color1.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/css/colorpreset/color10.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/css/colorpreset/color2.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/css/colorpreset/color3.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/css/colorpreset/color4.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/css/colorpreset/color5.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/css/colorpreset/color6.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/css/colorpreset/color7.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/css/colorpreset/color8.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/css/colorpreset/color9.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/css/colorpreset/dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/css/colorpreset/light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/css/colorpreset/wide.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/css/js-image-slider.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/css/preset.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/css/prettyPhoto.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/css/responsive.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/css/rticons.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/css/settings.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/css/slick.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/fonts/rt-icons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/js/appear.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/js/circle-progress.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/js/directionHover.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/js/gmaps.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/js/html5shiv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/js/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/js/jquery.prettyPhoto.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/js/jquery.themepunch.revolution.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/js/jquery.themepunch.tools.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/js/js-image-slider.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/js/mixer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/js/modernizr.custom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/js/slick.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/js/theme.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/js/wow.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/samples/404.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/samples/about.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/samples/blogGrid.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/samples/blogSidebar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/samples/blogSingle.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/samples/box.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/samples/contact.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/samples/dark.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/samples/event.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/samples/eventSingle.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/samples/folio1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/samples/folio2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/samples/folio3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/samples/folioSingle.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/samples/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/samples/index2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/samples/index3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/samples/index4.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/samples/member.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/samples/subscribe.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/index.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/parques_crud.ejs" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/crud.ejs" afterPath="$PROJECT_DIR$/views/senderos_crud.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/includes/head.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/includes/includes.ejs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/senderos.js" afterPath="$PROJECT_DIR$/controllers/senderos.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.ejs" afterPath="$PROJECT_DIR$/views/index.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -580,11 +44,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="34" column="21" lean-forward="false" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+            <state relative-caret-position="120">
+              <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="155" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="includes.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/includes/includes.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="head.ejs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/includes/head.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -605,8 +89,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="10" lean-forward="false" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+            <state relative-caret-position="270">
+              <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -632,6 +116,14 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>images</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>/images</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -647,9 +139,11 @@
         <option value="$PROJECT_DIR$/views/senderos_crud.ejs" />
         <option value="$PROJECT_DIR$/views/parques_crud.ejs" />
         <option value="$PROJECT_DIR$/controllers/parques.js" />
-        <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/public/css/bootstrap.css.map" />
         <option value="$PROJECT_DIR$/views/index.ejs" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/views/includes/head.ejs" />
       </list>
     </option>
   </component>
@@ -663,7 +157,7 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1276" />
+    <option name="width" value="1280" />
     <option name="height" value="800" />
   </component>
   <component name="ProjectView">
@@ -719,6 +213,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="includes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tfg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tfg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -735,6 +247,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="ignore_missing_gitignore" value="true" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -816,24 +329,25 @@
       <updated>1492878869089</updated>
       <workItem from="1492878870501" duration="6547000" />
       <workItem from="1492887517916" duration="6367000" />
-      <workItem from="1493031981811" duration="7375000" />
+      <workItem from="1493031981811" duration="11610000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20289000" />
+    <option name="totallyTimeSpent" value="24524000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1276" height="800" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24940239" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24861" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909605" sideWeight="0.50278884" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32909605" sideWeight="0.49721116" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31917807" sideWeight="0.49721116" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -841,26 +355,25 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32909605" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24940239" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909605" sideWeight="0.50278884" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31917807" sideWeight="0.49721116" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24861" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1030,16 +543,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/parques.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="38" column="29" lean-forward="false" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/css/slick.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1056,14 +559,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="10" lean-forward="false" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1072,10 +567,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/bootstrap.css.map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6662">
+          <caret line="0" column="234646" lean-forward="false" selection-start-line="0" selection-start-column="234646" selection-end-line="0" selection-end-column="234646" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/parques.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="38" column="29" lean-forward="false" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="34" column="21" lean-forward="false" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+        <state relative-caret-position="120">
+          <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="155" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/includes/includes.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/includes/head.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="26" />
           <folding />
         </state>
       </provider>
