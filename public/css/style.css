@@ -82,8 +82,18 @@
 .logo h2{
     float: left;
     margin-left: 11px;
-    padding-top: 4px;
+    padding-top: 20px;
 }
+
+
+.divisor {
+    border-left: 1px solid #949494;
+    height: 500px;
+}
+
+
+
+
 .logo h2 a{
     font-size: 30px;
     text-transform: capitalize;
@@ -1583,7 +1593,7 @@ div.pp_default .pp_close{
 /************************ Breadcrumb Section *******************************/
 .breadCrumArea{
     position: relative;
-    background: url(../images/folio1/breadBg.jpg) no-repeat scroll center center / cover;
+    background: url(../images/folio1/bosque.jpg) no-repeat scroll center center / cover;
     padding: 175px 0 60px;
 }
 .breadCrumArea:after {
@@ -2772,7 +2782,9 @@ div.pp_default .pp_close{
 }
 .contactForm h1{
     font-size: 50px;
-    padding-bottom: 80px;
+    padding-top: 100px;
+    padding-bottom: 70px;
+    text-align: center;
 }
 .contactForm h1 span{
     font-weight: 300;
@@ -2789,6 +2801,7 @@ div.pp_default .pp_close{
     font-style: italic;
     line-height: 0.8;
     padding: 9px 0 13px 20px;
+    margin-top: 3%;
     width: 370px;
 }
 .contactForm form input[type="text"]{

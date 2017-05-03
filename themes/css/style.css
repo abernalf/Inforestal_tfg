@@ -248,6 +248,16 @@
 .dropSub li a:hover{
     color: #de3c2f;
 }
+.ml0 {
+    margin-left: 20px;
+}
+.mt2{
+  margin-top:200px !important;
+}
+.absolute{
+    position: absolute;
+    margin-top: 200px;
+}
 .menuButton {
     border-radius: 2px;
     height: 30px;
@@ -1583,7 +1593,7 @@ div.pp_default .pp_close{
 /************************ Breadcrumb Section *******************************/
 .breadCrumArea{
     position: relative;
-    background: url(../images/folio1/breadBg.jpg) no-repeat scroll center center / cover;
+    background: url(../images/folio1/bosque.jpg) no-repeat scroll center center / cover;
     padding: 175px 0 60px;
 }
 .breadCrumArea:after {
