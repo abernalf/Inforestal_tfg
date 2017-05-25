@@ -71,7 +71,7 @@
     z-index: 99;
 }
 .logo{
-    margin-top: -13px;
+    margin-top: -3%;
     padding-left: 100px;
     width: 20%;
 }
@@ -1596,6 +1596,21 @@ div.pp_default .pp_close{
     background: url(../images/folio1/bosque.jpg) no-repeat scroll center center / cover;
     padding: 175px 0 60px;
 }
+.parallax {
+    /* The image used */
+    background-image: url(../images/folio1/bosque.jpg);
+
+    /* Set a specific height */
+    min-height: 200px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 175px 0 60px;
+}
 .breadCrumArea:after {
     background: rgba(0, 0, 0, 0) url("../images/rectangle/folio1.png") no-repeat scroll center center;
     bottom: -40px;
@@ -2782,7 +2797,7 @@ div.pp_default .pp_close{
 }
 .contactForm h1{
     font-size: 50px;
-    padding-top: 100px;
+    padding-top: 10px;
     padding-bottom: 70px;
     text-align: center;
 }
@@ -2840,6 +2855,11 @@ div.pp_default .pp_close{
 .contactForm form button:hover {
     background: #de3c2f none repeat scroll 0 0;
     border-color: #de3c2f;
+    color: #fff;
+}
+.contactForm2 form button:hover {
+    background: #77de78 none repeat scroll 0 0;
+    border-color: #77de78;
     color: #fff;
 }
 
