@@ -6,6 +6,7 @@ let bodyParser = require('body-parser');
 
 let routes = require('./routes');
 let routes_user = require('./routes/user');
+let map = require('./routes/map');
 const mongo = require('mongoose');
 const Users = require('./models/users.js');
 
@@ -50,7 +51,7 @@ let auth = function(req, res, next) {
     });
 
 };
-
+app.use('/map',map);
 app.use('/crud',auth, routes);
 app.use('/',routes_user);
 
