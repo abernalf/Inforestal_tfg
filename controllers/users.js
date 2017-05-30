@@ -12,11 +12,13 @@ exports.index = function (req, res) {
 exports.newUser = function (req, res) {
     let hash = bcrypt.hashSync(req.body.password);
     let data = {
-        nick           :   ''+req.body.name+'',
+        nick           :   ''+req.body.nick+'',
         password       :   ''+hash+'',
-        mail           :   ''+req.body.email+'',
+        mail           :   ''+req.body.mail+'',
 
     };
+    console.log("El user a registrar");
+    console.log(data);
 
     let user = new Users(data);
 
@@ -31,10 +33,12 @@ exports.login = function(req,res){
 
 
     Users.findOne({ 'nick': req.body.name},function(err,obj) {
+        console.log("Ha encontrado un user");
         console.log(obj);
 
         if(bcrypt.compareSync(req.body.password,obj.password)){
             console.log("User y password correctos")
+            res.redirect("/map/index")
         }
         else{
             res.render('bad_credentials.ejs');

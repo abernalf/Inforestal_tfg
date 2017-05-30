@@ -22,19 +22,63 @@
 <body>
 
 <div class="up_map" id="map"></div>
-<% include includes/login.ejs %>
+
 
 <script>
 
     // This example displays a marker at the center of Australia.
     // When the user clicks the marker, an info window opens.
 
+//    let sitios = [[28.291565, -16.629129], [28.291565, -16]]
+//    function setMakers(map){
+//        for (let i = 0; i < 1; i++) {
+////              let contentString = '<div id="content">' +
+////                  '<div id="siteNotice">' +
+////                  '</div>' +
+////                  '<h1 id="firstHeading" class="firstHeading">Prueba</h1>' +
+////                  '<div id="bodyContent">' + 'Esto no es mas que una prueba';
+//////
+////              let infowindow = new google.maps.InfoWindow({
+////                  content: contentString
+////              });
+////            let pos = {lat: sitios[i][0], lng: sitios[i].[1]};
+////
+////            let marker = new google.maps.Marker({
+////                position: pos,
+////                map: map,
+////                title: ''
+////            });
+////
+////              marker.addListener('click', function () {
+////                  infowindow.open(map, marker);
+////              });
+//            var beachMarker = new google.maps.Marker({
+//                position: {lat: sitios[i][0], lng: sitios[i][1]},
+//                map: map,
+//                title: sitios[i][0],
+//            });
+//            console.log(beachMarker);
+//
+//
+//        }
+//    }
+//    function initMap() {
+//        let sitios = [[28.291565, -16.629129], [28.291565, -16]]
+//        let Tenerife = {lat: 28.291565, lng: -16.629129};
+//        let map = new google.maps.Map(document.getElementById('map'), {
+//            zoom: 10,
+//            center: Tenerife,
+//            mapTypeControl: false,
+//            fullScreenControl: false,
+//
+//        });
+//        setMarkers(map);
+//    }
+
     function initMap() {
-        let Tenerife = {lat: 28.291565, lng: -16.629129};
-        let map = new google.maps.Map(document.getElementById('map'), {
+        var map = new google.maps.Map(document.getElementById('map'), {
             zoom: 10,
-            center: Tenerife,
-            mapTypeControl: false,
+            center: {lat: 28.291565, lng: -16.629129},
             styles: [
                 {
                     "elementType": "geometry",
@@ -250,52 +294,46 @@
                     ]
                 }
             ],
-            fullScreenControl: false,
-            scrollwheel:false,
-            cursor:false,
-            draggable: false,
+            mapTypeControl: false,
         });
 
-        let contentString = '<div id="content">'+
-            '<div id="siteNotice">'+
-            '</div>'+
-            '<h1 id="firstHeading" class="firstHeading">Prueba</h1>'+
-            '<div id="bodyContent">'+'Esto no es mas que una prueba';
-
-        let infowindow = new google.maps.InfoWindow({
-            content: contentString
-        });
-
-        let marker = new google.maps.Marker({
-            position: Tenerife,
-            map: map,
-            title: ''
-        });
-
-        marker.addListener('click', function() {
-            infowindow.open(map, marker);
-        });
-
-        Tenerife = {lat: 28, lng: -16.629129};
-
-        contentString = '<div id="content">'+
-            '<div id="siteNotice">'+
-            '</div>'+
-            '<h1 id="firstHeading" class="firstHeading">Prueba</h1>'+
-            '<div id="bodyContent">'+'Esto no es mas que una prueba';
-
-        infowindow = new google.maps.InfoWindow({
-            content: contentString
-        });
-
-
-        marker = new google.maps.Marker({
-            position: Tenerife,
-            map: map,
-            title: ''
-        });
-
+        setMarkers(map);
     }
+
+    // Data for the markers consisting of a name, a LatLng and a zIndex for the
+    // order in which these markers should display on top of each other.
+    var beaches = [
+        [28.291565, -16.629129],
+        [28.291565, -16]
+    ];
+
+    function setMarkers(map) {
+        // Adds markers to the map.
+
+        // Marker sizes are expressed as a Size of X,Y where the origin of the image
+        // (0,0) is located in the top left of the image.
+
+        // Origins, anchor positions and coordinates of the marker increase in the X
+        // direction to the right and in the Y direction down.
+
+        // Shapes define the clickable region of the icon. The type defines an HTML
+        // <area> element 'poly' which traces out a polygon as a series of X,Y points.
+        // The final coordinate closes the poly by connecting to the first coordinate.
+        var shape = {
+            coords: [1, 1, 1, 20, 18, 20, 18, 1],
+            type: 'poly'
+        };
+        for (var i = 0; i < beaches.length; i++) {
+            var beach = beaches[i];
+            var marker = new google.maps.Marker({
+                position: {lat: beach[0], lng: beach[1]},
+                map: map,
+                shape: shape,
+                zIndex: beach[3]
+            });
+        }
+    }
+
 </script>
 <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVyWk8s6eYntMf-FhDcBtjWYhaOZeTBto&callback=initMap">

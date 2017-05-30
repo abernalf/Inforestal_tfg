@@ -1,62 +1,307 @@
-<% include includes/head.ejs %>
+<!DOCTYPE html>
+<% include includes/head2.ejs %>
+<html>
+<head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Info windows</title>
+    <style>
+        /* Always set the map height explicitly to define the size of the div
+         * element that contains the map. */
+        #map {
+            height: 100%;
+        }
+        /* Optional: Makes the sample page fill the window. */
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
 
-<section class="parallax">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 col-sm-12 col-xs-12 text-center">
-                <ul class="breadLink wow fadeInUp" data-wow-duration="700ms" data-wow-delay="350ms">
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
+<div class="up_map" id="map"></div>
+<% include includes/login.ejs %>
 
-<section class="contactArea commonSection">
-    <div class="container">
-        <div class="row ">
-            <div class="col-lg-5 col-sm-12 col-xs-12 text-center wow fadeInUp" data-wow-duration="700ms" data-wow-delay="300ms">
-                <div class="contactForm">
-                    <h1>Registro</h1>
-                    <form method="post" action="/newUser" id="unContactForm">
-                        <div class="col-md-10 col-md-offset-1">
-                            <input class="text-center required" type="text" placeholder="Nick" name="nick">
-                        </div>
-                        <div class="col-md-10 col-md-offset-1">
-                            <input class="text-center required" type="email" placeholder="Email" name="mail">
-                        </div>
-                        <div class="col-md-10 col-md-offset-1">
-                            <input class="text-center required" type="password" placeholder="Contraseña" name="password">
-                        </div>
-                        <!-- <textarea class="required" placeholder="Message" name="message"></textarea>-->
-                        <button class="text-center" type="submit" id="unConSubmit">Registrarme</button>
-                    </form>
-                </div>
-            </div>
-            <div class="col-lg-1 col-lg-offset-1 col-sm-12 col-xs-12 text-center wow fadeInUp">
-                <div class="divisor hidden-xs hidden-md"></div>
-                <div class="hidden-lg"><hr></div>
+<script>
+
+    // This example displays a marker at the center of Australia.
+    // When the user clicks the marker, an info window opens.
+
+    function initMap() {
+        let Tenerife = {lat: 28.291565, lng: -16.629129};
+        let map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 10,
+            center: Tenerife,
+            mapTypeControl: false,
+            styles: [
+                {
+                    "elementType": "geometry",
+                    "stylers": [
+                        {
+                            "color": "#ebe3cd"
+                        }
+                    ]
+                },
+                {
+                    "elementType": "labels.text.fill",
+                    "stylers": [
+                        {
+                            "color": "#523735"
+                        }
+                    ]
+                },
+                {
+                    "elementType": "labels.text.stroke",
+                    "stylers": [
+                        {
+                            "color": "#f5f1e6"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "administrative",
+                    "elementType": "geometry.stroke",
+                    "stylers": [
+                        {
+                            "color": "#c9b2a6"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "administrative.land_parcel",
+                    "elementType": "geometry.stroke",
+                    "stylers": [
+                        {
+                            "color": "#dcd2be"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "administrative.land_parcel",
+                    "elementType": "labels.text.fill",
+                    "stylers": [
+                        {
+                            "color": "#ae9e90"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "landscape.natural",
+                    "elementType": "geometry",
+                    "stylers": [
+                        {
+                            "color": "#dfd2ae"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "poi",
+                    "elementType": "geometry",
+                    "stylers": [
+                        {
+                            "color": "#dfd2ae"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "poi",
+                    "elementType": "labels.text.fill",
+                    "stylers": [
+                        {
+                            "color": "#93817c"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "poi.park",
+                    "elementType": "geometry.fill",
+                    "stylers": [
+                        {
+                            "color": "#a5b076"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "poi.park",
+                    "elementType": "labels.text.fill",
+                    "stylers": [
+                        {
+                            "color": "#447530"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road",
+                    "elementType": "geometry",
+                    "stylers": [
+                        {
+                            "color": "#f5f1e6"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road.arterial",
+                    "elementType": "geometry",
+                    "stylers": [
+                        {
+                            "color": "#fdfcf8"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road.highway",
+                    "elementType": "geometry",
+                    "stylers": [
+                        {
+                            "color": "#f8c967"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road.highway",
+                    "elementType": "geometry.stroke",
+                    "stylers": [
+                        {
+                            "color": "#e9bc62"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road.highway.controlled_access",
+                    "elementType": "geometry",
+                    "stylers": [
+                        {
+                            "color": "#e98d58"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road.highway.controlled_access",
+                    "elementType": "geometry.stroke",
+                    "stylers": [
+                        {
+                            "color": "#db8555"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road.local",
+                    "elementType": "labels.text.fill",
+                    "stylers": [
+                        {
+                            "color": "#806b63"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "transit.line",
+                    "elementType": "geometry",
+                    "stylers": [
+                        {
+                            "color": "#dfd2ae"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "transit.line",
+                    "elementType": "labels.text.fill",
+                    "stylers": [
+                        {
+                            "color": "#8f7d77"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "transit.line",
+                    "elementType": "labels.text.stroke",
+                    "stylers": [
+                        {
+                            "color": "#ebe3cd"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "transit.station",
+                    "elementType": "geometry",
+                    "stylers": [
+                        {
+                            "color": "#dfd2ae"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "water",
+                    "elementType": "geometry.fill",
+                    "stylers": [
+                        {
+                            "color": "#b9d3c2"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "water",
+                    "elementType": "labels.text.fill",
+                    "stylers": [
+                        {
+                            "color": "#92998d"
+                        }
+                    ]
+                }
+            ],
+            fullScreenControl: false,
+            scrollwheel:false,
+            cursor:false,
+            draggable: false,
+        });
+
+        let contentString = '<div id="content">'+
+            '<div id="siteNotice">'+
+            '</div>'+
+            '<h1 id="firstHeading" class="firstHeading">Prueba</h1>'+
+            '<div id="bodyContent">'+'Esto no es mas que una prueba';
+
+        let infowindow = new google.maps.InfoWindow({
+            content: contentString
+        });
+
+        let marker = new google.maps.Marker({
+            position: Tenerife,
+            map: map,
+            title: ''
+        });
+
+        marker.addListener('click', function() {
+            infowindow.open(map, marker);
+        });
+
+        Tenerife = {lat: 28, lng: -16.629129};
+
+        contentString = '<div id="content">'+
+            '<div id="siteNotice">'+
+            '</div>'+
+            '<h1 id="firstHeading" class="firstHeading">Prueba</h1>'+
+            '<div id="bodyContent">'+'Esto no es mas que una prueba';
+
+        infowindow = new google.maps.InfoWindow({
+            content: contentString
+        });
 
 
+        marker = new google.maps.Marker({
+            position: Tenerife,
+            map: map,
+            title: ''
+        });
 
-            </div>
-            <div class="col-lg-5 col-sm-12 col-xs-12 text-center wow fadeInUp" data-wow-duration="700ms" data-wow-delay="300ms">
-                <div class="contactForm contactForm2">
-                    <h1>Log-in</h1>
-                    <form method="post" action="/login" id="unContactForm">
-                        <div class="col-md-10 col-md-offset-1">
-                            <input class="text-center required" type="text" placeholder="Nick" name="name">
-                        </div>
-                        <div class="col-md-10 col-md-offset-1">
-                            <input class="text-center required" type="password" placeholder="Contraseña" name="password">
-                        </div>
-                        <!-- <textarea class="required" placeholder="Message" name="message"></textarea>-->
-                        <button class="text-center" type="submit" id="unConSubmit">Login</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+    }
+</script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVyWk8s6eYntMf-FhDcBtjWYhaOZeTBto&callback=initMap">
+</script>
+</body>
+</html>
 
 <section class="parallax">
     <div class="container">
