@@ -19,4 +19,33 @@
     top: 20px;
     padding-top: 23px;
     z-index: 99;
+    -webkit-box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.75);
+}
+
+.up_map{
+    position: absolute;
+    top:0px;
+}
+.back_black{
+    background-color: rgb(255, 255, 255, .5);
+}
+
+
+.card {
+    background-color: #ffffff;
+    border-radius: 10px 10px 10px 10px;
+    -webkit-box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.75);
+    border: 0px solid #000000;
+}
+.login_button{
+    padding-top: 29%!important;
+    padding-bottom: 15%!important;
+}
+.register_button{
+
+    padding-bottom: 11%!important;
 }

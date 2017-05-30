@@ -2768,7 +2768,7 @@ div.pp_default .pp_close{
     background: rgba(0, 0, 0, 0) url("../images/diagonal.png") repeat scroll center center;
 }
 .contactArea:after{
-    background: rgba(0, 0, 0, 0) url("../images/rectangle/feature.png") no-repeat scroll center center;
+    /*background: rgba(0, 0, 0, 0) url("../images/rectangle/feature.png") no-repeat scroll center center;*/
     bottom: -40px;
     content: "";
     height: 40px;

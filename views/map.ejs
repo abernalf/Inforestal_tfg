@@ -20,7 +20,10 @@
     </style>
 </head>
 <body>
-<div id="map"></div>
+
+<div class="up_map" id="map"></div>
+<% include includes/login.ejs %>
+
 <script>
 
     // This example displays a marker at the center of Australia.
@@ -248,6 +251,9 @@
                 }
             ],
             fullScreenControl: false,
+            scrollwheel:false,
+            cursor:false,
+            draggable: false,
         });
 
         let contentString = '<div id="content">'+
@@ -265,9 +271,30 @@
             map: map,
             title: ''
         });
+
         marker.addListener('click', function() {
             infowindow.open(map, marker);
         });
+
+        Tenerife = {lat: 28, lng: -16.629129};
+
+        contentString = '<div id="content">'+
+            '<div id="siteNotice">'+
+            '</div>'+
+            '<h1 id="firstHeading" class="firstHeading">Prueba</h1>'+
+            '<div id="bodyContent">'+'Esto no es mas que una prueba';
+
+        infowindow = new google.maps.InfoWindow({
+            content: contentString
+        });
+
+
+        marker = new google.maps.Marker({
+            position: Tenerife,
+            map: map,
+            title: ''
+        });
+
     }
 </script>
 <script async defer
