@@ -17,11 +17,32 @@
             margin: 0;
             padding: 0;
         }
+        .leyenda {
+            width: 10%;
+            height: auto;
+        }
+        #legend {
+            font-family: Arial, sans-serif;
+            background: #fff;
+            padding: 10px;
+            width: 150px;
+            margin: 10px;
+            border: 0px solid #000;
+            -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+            -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+            box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        }
+        #legend h3 {
+            margin-top: 0;
+        }
+        #legend img {
+            vertical-align: middle;
+        }
     </style>
 </head>
 <body>
-
-<div class="up_map" id="map"></div>
+<div id="legend"></div>
+<div class="up_map" id="map"><h3>Leyenda</h3></div>
 
 
 <script>
@@ -74,6 +95,24 @@
 //        });
 //        setMarkers(map);
 //    }
+
+    let icons = {
+        senderos: {
+            name: 'Senderos',
+            icon: '/images/hiking2.png'
+        },
+        parques:{
+            name: 'Parques Recreativo',
+            icon: '/images/tree_black.png'
+        },
+        ninos:{
+            name: 'Parques Infantiles',
+            icon: '/images/ball.png'
+        },
+
+
+
+    };
 
     function initMap() {
         var map = new google.maps.Map(document.getElementById('map'), {
@@ -295,6 +334,8 @@
                 }
             ],
             mapTypeControl: false,
+            streetView:false,
+            disableDefaultUI: true,
         });
 
         setMarkers(map);
@@ -323,15 +364,55 @@
             coords: [1, 1, 1, 20, 18, 20, 18, 1],
             type: 'poly'
         };
+        var infoWindow = new google.maps.InfoWindow(), marker, i;
         for (var i = 0; i < beaches.length; i++) {
             var beach = beaches[i];
             var marker = new google.maps.Marker({
                 position: {lat: beach[0], lng: beach[1]},
                 map: map,
-                shape: shape,
-                zIndex: beach[3]
+                icon:icons.senderos.icon,
+                animation: google.maps.Animation.DROP,
+                //shape: shape,
+                title:"Hello World!",
+                zIndex: beach[3],
             });
+            google.maps.event.addListener(marker, 'click', (function(marker, i) {
+                return function() {
+                    infoWindow.setContent(""+beaches[i]+"");
+                    infoWindow.open(map, marker);
+                }
+            })(marker, i));
         }
+        var flightPlanCoordinates = [
+            {lat: 28.291565, lng: -16.629129},
+            {lat: 28.291565, lng: -16}
+        ];
+        //Dibujamos la línea en el mapa
+        var flightPath = new google.maps.Polyline({
+            path: flightPlanCoordinates,
+            geodesic: true,
+            strokeColor: '#FF0000',
+            strokeOpacity: 1.0,
+            strokeWeight: 2
+        });
+
+        flightPath.setMap(map);
+
+        var legend = document.getElementById('legend');
+        let aux = 0
+        for (var key in icons) {
+            var type = icons[key];
+            var name = type.name;
+            var icon = type.icon;
+            var div = document.createElement('div');
+
+            div.innerHTML = '<img class="leyenda" width="10px" height="10px" src="' + icon + '"> ' + name+'<hr>';
+
+            legend.appendChild(div);
+
+        }
+        map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(legend);
+
     }
 
 </script>

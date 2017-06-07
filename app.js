@@ -51,7 +51,7 @@ let auth = function(req, res, next) {
     });
 
 };
-app.use('/map',auth,map);
+app.use('/map',map);
 app.use('/crud',auth, routes);
 app.use('/',routes_user);
 
