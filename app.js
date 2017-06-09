@@ -52,11 +52,11 @@ let auth = function(req, res, next) {
 
 };
 app.use('/map',map);
-app.use('/crud',auth, routes);
+app.use('/crud', routes);
 app.use('/',routes_user);
 
 
 
-app.listen(3000, function() {
+app.listen(3002, function() {
     console.log('listening on 3000');
 })

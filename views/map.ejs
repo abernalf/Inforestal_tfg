@@ -347,6 +347,7 @@
         [28.291565, -16.629129],
         [28.291565, -16]
     ];
+    let senderos =  <%- JSON.stringify(senderos_) %>
 
     function setMarkers(map) {
         // Adds markers to the map.
@@ -360,58 +361,64 @@
         // Shapes define the clickable region of the icon. The type defines an HTML
         // <area> element 'poly' which traces out a polygon as a series of X,Y points.
         // The final coordinate closes the poly by connecting to the first coordinate.
-        var shape = {
+        let shape = {
             coords: [1, 1, 1, 20, 18, 20, 18, 1],
             type: 'poly'
         };
-        var infoWindow = new google.maps.InfoWindow(), marker, i;
-        for (var i = 0; i < beaches.length; i++) {
-            var beach = beaches[i];
-            var marker = new google.maps.Marker({
-                position: {lat: beach[0], lng: beach[1]},
+        let infoWindow = new google.maps.InfoWindow(), marker, i;
+        for (let i = 0; i < senderos.length; i++) {
+            let sendero = senderos[i];
+            console.log(sendero.latitud);
+            console.log(sendero.longitud);
+            let marker = new google.maps.Marker({
+                position: {lat:Number(sendero.latitud), lng: Number(sendero.longitud)},
                 map: map,
                 icon:icons.senderos.icon,
                 animation: google.maps.Animation.DROP,
                 //shape: shape,
                 title:"Hello World!",
-                zIndex: beach[3],
+                //zIndex: beach[3],
             });
             google.maps.event.addListener(marker, 'click', (function(marker, i) {
                 return function() {
-                    infoWindow.setContent(""+beaches[i]+"");
+                    infoWindow.setContent("<div class=\"buton-center\">"+
+                        "<b>"+senderos[i].partida+" - "+senderos[i].fin+"</b>"
+                        +"<br><br><div class=\"col-md-3 col-md-offset-4\"><a href=\"#\" class=\"btn btn-sample\"><i class=\"fa fa-plus-circle\" aria-hidden=\"true\"></i> Info</a></div>"
+                        +"<div>"
+                    )
                     infoWindow.open(map, marker);
                 }
             })(marker, i));
         }
-        var flightPlanCoordinates = [
-            {lat: 28.291565, lng: -16.629129},
-            {lat: 28.291565, lng: -16}
-        ];
-        //Dibujamos la línea en el mapa
-        var flightPath = new google.maps.Polyline({
-            path: flightPlanCoordinates,
-            geodesic: true,
-            strokeColor: '#FF0000',
-            strokeOpacity: 1.0,
-            strokeWeight: 2
-        });
-
-        flightPath.setMap(map);
-
-        var legend = document.getElementById('legend');
-        let aux = 0
-        for (var key in icons) {
-            var type = icons[key];
-            var name = type.name;
-            var icon = type.icon;
-            var div = document.createElement('div');
-
-            div.innerHTML = '<img class="leyenda" width="10px" height="10px" src="' + icon + '"> ' + name+'<hr>';
-
-            legend.appendChild(div);
-
-        }
-        map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(legend);
+//        var flightPlanCoordinates = [
+//            {lat: 28.291565, lng: -16.629129},
+//            {lat: 28.291565, lng: -16}
+//        ];
+//        //Dibujamos la línea en el mapa
+//        var flightPath = new google.maps.Polyline({
+//            path: flightPlanCoordinates,
+//            geodesic: true,
+//            strokeColor: '#FF0000',
+//            strokeOpacity: 1.0,
+//            strokeWeight: 2
+//        });
+//
+//        flightPath.setMap(map);
+//
+//        var legend = document.getElementById('legend');
+//        let aux = 0
+//        for (var key in icons) {
+//            var type = icons[key];
+//            var name = type.name;
+//            var icon = type.icon;
+//            var div = document.createElement('div');
+//
+//            div.innerHTML = '<img class="leyenda" width="10px" height="10px" src="' + icon + '"> ' + name+'<hr>';
+//
+//            legend.appendChild(div);
+//
+//        }
+//        map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(legend);
 
     }
 
