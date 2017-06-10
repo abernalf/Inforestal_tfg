@@ -5,11 +5,8 @@ const map = require('../controllers/map');
 
 //-------------------------------------------------Senderos
 api.get('/index', map.index);
-
-
+api.get('/senderos', map.senderos);
 
 
 module.exports = api;
-/**
- * Created by chinegua on 29/5/17.
- */
+

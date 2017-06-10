@@ -100,3 +100,15 @@ fieldset[disabled] .btn-sample.active {
     margin-left: auto;
     margin-right: auto;
 }
+a{
+    color: #104010;
+}
+a:hover{
+    color: #104010;
+}
+hr {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
