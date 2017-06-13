@@ -24,7 +24,9 @@ let Parques = new Schema({
     comedor          :   String,
     fogones          :   String,
     bancos           :   String,
-    aparcamientos    :   String
+    aparcamientos    :   String,
+    latitud          :   String,
+    longitud         :   String
 });
 
 

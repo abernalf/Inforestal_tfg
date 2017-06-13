@@ -27,11 +27,16 @@ exports.post = function (req, res) {
         bar               :   ''+req.body.bar+'',
         comedor           :   ''+req.body.comedor+'',
         fogones           :   ''+req.body.fogones+'',
-        banco             :   ''+req.body.banco+'',
-        apartamentos      :   ''+req.body.apartamentos+''
+        bancos             :   ''+req.body.banco+'',
+        aparcamiento      :   ''+req.body.aparcamiento+'',
+        latitud           :   ''+req.body.latitud+'',
+        longitud          :   ''+req.body.longitud+''
+
 
 
     };
+
+
 
     let parques = new Parques(data);
 

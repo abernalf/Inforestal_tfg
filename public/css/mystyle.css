@@ -28,6 +28,7 @@
     position: absolute;
     top:0px;
 }
+
 .back_black{
     background-color: rgb(255, 255, 255, .5);
 }
@@ -35,6 +36,18 @@
 
 .card {
     margin-top: 4%;
+    background-color: #ffffff;
+    border-radius: 10px 10px 10px 10px;
+    -webkit-box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.75);
+    border: 0px solid #000000;
+}
+.card2 {
+    margin-top: 12%;
+    margin-left: 2%;
+    height: 100%;
+    width: 100%;
     background-color: #ffffff;
     border-radius: 10px 10px 10px 10px;
     -webkit-box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.75);

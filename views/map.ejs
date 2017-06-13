@@ -107,7 +107,7 @@
             icon: '/images/hiking2.png'
         },
         parques:{
-            id: 'parques_recreativos',
+            id: 'parquesRecreativos',
             name: 'Parques Recreativo',
             icon: '/images/tree_black.png'
         },
@@ -354,7 +354,11 @@
         [28.291565, -16.629129],
         [28.291565, -16]
     ];
-    let senderos =  <%- JSON.stringify(senderos_) %>
+    let senderos =  <%- JSON.stringify(senderos_) %>;
+    let parquesRecreativos =  <%- JSON.stringify(parquesRecreativos_) %>;
+    let infantil = <%- JSON.stringify(infantil_) %>;
+
+
 
     function setMarkers(map) {
         // Adds markers to the map.
@@ -372,7 +376,8 @@
             coords: [1, 1, 1, 20, 18, 20, 18, 1],
             type: 'poly'
         };
-        let infoWindow = new google.maps.InfoWindow(), marker, i;
+
+        let infoWindow = new google.maps.InfoWindow({maxWidth: 200}), marker, i;
         for (let i = 0; i < senderos.length; i++) {
             let sendero = senderos[i];
             console.log(sendero.latitud);
@@ -388,15 +393,93 @@
             });
             google.maps.event.addListener(marker, 'click', (function(marker, i) {
                 return function() {
-                    infoWindow.setContent("<div class=\"buton-center\">"+
-                        "<b>"+senderos[i].partida+" - "+senderos[i].fin+"</b>"
-                        +"<br><br><div class=\"col-md-3 col-md-offset-4\"><a href=\"#\" class=\"btn btn-sample\"><i class=\"fa fa-plus-circle\" aria-hidden=\"true\"></i> Info</a></div>"
-                        +"<div>"
+                    infoWindow.setContent(
+
+                            "<div class=\"col-md-12\">" +
+                                "<b>"+ senderos[i].partida +" - "+ senderos[i].fin+ "</b>" +
+                            "</div>" +
+                            "<div class=\"col-md-11 col-md-offset-1\">" +
+                                "<br><i class=\"fa fa-clock-o\"></i> "+senderos[i].duracion +
+                            "</div>" +
+                            "<div class=\"col-md-11 col-md-offset-1\">" +
+                                "<br><i class=\"fa fa-map-o\"></i> "+senderos[i].distancia+
+                            "</div>" +
+                            "<div>"+
+                                "<div class=\"col-md-12\"><br><a href=\" "+senderos[i]._id+" \" class=\"btn btn-sample\"><i class=\"fa fa-plus-circle\" aria-hidden=\"true\"></i> Info</a></div>"+
+                            "</div>"
                     )
                     infoWindow.open(map, marker);
                 }
             })(marker, i));
         }
+        for (let i = 0; i < infantil.length; i++) {
+            let inf = infantil[i];
+            let marker = new google.maps.Marker({
+                position: {lat: Number(inf.latitud), lng: Number(inf.longitud)},
+                map: map,
+                icon:icons.ninos.icon,
+                animation: google.maps.Animation.DROP,
+                //shape: shape,
+                title:infantil[i].nombre,
+                //zIndex: beach[3],
+            });
+            google.maps.event.addListener(marker, 'click', (function(marker, i) {
+                return function() {
+                    infoWindow.setContent(
+                        "<div class=\"col-md-12\">" +
+                        "<b>"+ infantil[i].nombre + "</b>" +
+                        "</div>" +
+                        "<div class=\"col-md-11 col-md-offset-1\">" +
+                        "<br><i class=\"fa fa-bandcamp\"></i> "+infantil[i].suelo +
+                        "</div>" +
+                        "<div class=\"col-md-11 col-md-offset-1\">" +
+                        "<br><i class=\"fa fa-arrows-h\"></i> "+infantil[i].superficie+
+                        " </div>"
+
+                    )
+                    infoWindow.open(map, marker);
+                }
+            })(marker, i));
+        }
+
+        for (let i = 0; i < parquesRecreativos.length; i++) {
+            let parques = parquesRecreativos[i];
+            console.log(parques.latitud);
+            let marker = new google.maps.Marker({
+                position: {lat: Number(parques.latitud), lng: Number(parques.longitud)},
+                map: map,
+                icon:icons.parques.icon,
+                animation: google.maps.Animation.DROP,
+                //shape: shape,
+                title:parquesRecreativos[i].nombre,
+                //zIndex: beach[3],
+            });
+            google.maps.event.addListener(marker, 'click', (function(marker, i) {
+                return function() {
+                    infoWindow.setContent(
+                        "<div class=\"col-md-12\">" +
+                        "<b>"+ parquesRecreativos[i].nombre + "</b>" +
+                        "</div>" +
+                        "<div class=\"col-md-11 col-md-offset-1\">" +
+                        "<br><i class=\"fa fa-fire\"></i> "+parquesRecreativos[i].fogones +
+                        "</div>" +
+                        "<div class=\"col-md-11 col-md-offset-1\">" +
+                        "<br><i class=\"fa fa-cutlery\"></i> "+parquesRecreativos[i].bancos+
+                        " bancos</div>" +
+                        "<div class=\"col-md-11 col-md-offset-1\">" +
+                        "<br><i class=\"fa fa-arrows-h\"></i> "+parquesRecreativos[i].superficie+
+                        "</div>" +
+                        "<div>"+
+                        "<div class=\"col-md-12\"><br><a href=\""+parquesRecreativos[i]._id+"\" class=\"btn btn-sample\"><i class=\"fa fa-plus-circle\" aria-hidden=\"true\"></i> Info</a></div>"+
+                        "</div>"
+
+                    )
+                    infoWindow.open(map, marker);
+                }
+            })(marker, i));
+        }
+
+
 
         var legend = document.getElementById('legend');
         let aux = 0

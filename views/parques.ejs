@@ -45,7 +45,7 @@
     </style>
 </head>
 <body>
-<div id="legend" style="visibility:hidden"><h4>Leyenda</h4></div>
+<div id="legend"  style="visibility:hidden;"><h4>Leyenda</h4></div>
 <div class="up_map" id="map"></div>
 
 
@@ -107,7 +107,7 @@
             icon: '/images/hiking2.png'
         },
         parques:{
-            id: 'parquesRecreativos',
+            id: 'parquesrRecreativos',
             name: 'Parques Recreativo',
             icon: '/images/tree_black.png'
         },
@@ -354,81 +354,89 @@
         [28.291565, -16.629129],
         [28.291565, -16]
     ];
-    let senderos =  <%- JSON.stringify(senderos_) %>
 
-        function setMarkers(map) {
-            // Adds markers to the map.
+    let parquesRecreativos =  <%- JSON.stringify(parquesRecreativos_) %>;
 
-            // Marker sizes are expressed as a Size of X,Y where the origin of the image
-            // (0,0) is located in the top left of the image.
 
-            // Origins, anchor positions and coordinates of the marker increase in the X
-            // direction to the right and in the Y direction down.
 
-            // Shapes define the clickable region of the icon. The type defines an HTML
-            // <area> element 'poly' which traces out a polygon as a series of X,Y points.
-            // The final coordinate closes the poly by connecting to the first coordinate.
-            let shape = {
-                coords: [1, 1, 1, 20, 18, 20, 18, 1],
-                type: 'poly'
-            };
-            let infoWindow = new google.maps.InfoWindow({maxWidth: 200}), marker, i;
-            for (let i = 0; i < senderos.length; i++) {
-                let sendero = senderos[i];
-                console.log(sendero.latitud);
-                console.log(sendero.longitud);
-                let marker = new google.maps.Marker({
-                    position: {lat:Number(sendero.latitud), lng: Number(sendero.longitud)},
-                    map: map,
-                    icon:icons.senderos.icon,
-                    animation: google.maps.Animation.DROP,
-                    //shape: shape,
-                    title:senderos[i].partida,
-                    //zIndex: beach[3],
-                });
-                google.maps.event.addListener(marker, 'click', (function(marker, i) {
-                    return function() {
-                        infoWindow.setContent(
+    function setMarkers(map) {
+        // Adds markers to the map.
 
-                            "<div class=\"col-md-12\">" +
-                            "<b>"+ senderos[i].partida +" - "+ senderos[i].fin+ "</b>" +
-                            "</div>" +
-                            "<div class=\"col-md-11 col-md-offset-1\">" +
-                            "<br><i class=\"fa fa-clock-o\"></i> "+senderos[i].duracion +
-                            "</div>" +
-                            "<div class=\"col-md-11 col-md-offset-1\">" +
-                            "<br><i class=\"fa fa-map-o\"></i> "+senderos[i].distancia+
-                            "</div>" +
-                            "<div>"+
-                            "<div class=\"col-md-12\"><br><a href=\" "+senderos[i]._id+" \" class=\"btn btn-sample\"><i class=\"fa fa-plus-circle\" aria-hidden=\"true\"></i> Info</a></div>"+
-                            "</div>"
-                        )
-                        infoWindow.open(map, marker);
-                    }
-                })(marker, i));
-            }
+        // Marker sizes are expressed as a Size of X,Y where the origin of the image
+        // (0,0) is located in the top left of the image.
 
-            var legend = document.getElementById('legend');
-            let aux = 0
-            for (var key in icons) {
-                var type = icons[key];
-                var name = type.name;
-                var id_icon = type.id
-                var icon = type.icon;
-                var div = document.createElement('div');
+        // Origins, anchor positions and coordinates of the marker increase in the X
+        // direction to the right and in the Y direction down.
 
-                div.innerHTML = "<a href=\"/map/"+ id_icon +"\"><img class=\"leyenda\" width=\"10px\" height=\"10px\" src=\"" + icon + "\"> " + name+"<hr><a>";
+        // Shapes define the clickable region of the icon. The type defines an HTML
+        // <area> element 'poly' which traces out a polygon as a series of X,Y points.
+        // The final coordinate closes the poly by connecting to the first coordinate.
+        let shape = {
+            coords: [1, 1, 1, 20, 18, 20, 18, 1],
+            type: 'poly'
+        };
+        let infoWindow = new google.maps.InfoWindow({maxWidth: 200}), marker, i;
 
-                legend.appendChild(div);
 
-            }
-            map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(legend);
+        for (let i = 0; i < parquesRecreativos.length; i++) {
+            let parques = parquesRecreativos[i];
+            console.log(parques.latitud);
+            let marker = new google.maps.Marker({
+                position: {lat: Number(parques.latitud), lng: Number(parques.longitud)},
+                map: map,
+                icon:icons.parques.icon,
+                animation: google.maps.Animation.DROP,
+                //shape: shape,
+                title:parquesRecreativos[i].nombre,
+                //zIndex: beach[3],
+            });
+            google.maps.event.addListener(marker, 'click', (function(marker, i) {
+                return function() {
+                    infoWindow.setContent(
+                        "<div class=\"col-md-12\">" +
+                        "<b>"+ parquesRecreativos[i].nombre + "</b>" +
+                        "</div>" +
+                        "<div class=\"col-md-11 col-md-offset-1\">" +
+                        "<br><i class=\"fa fa-fire\"></i> "+parquesRecreativos[i].fogones +
+                        "</div>" +
+                        "<div class=\"col-md-11 col-md-offset-1\">" +
+                        "<br><i class=\"fa fa-cutlery\"></i> "+parquesRecreativos[i].bancos+
+                        " bancos</div>" +
+                        "<div class=\"col-md-11 col-md-offset-1\">" +
+                        "<br><i class=\"fa fa-arrows-h\"></i> "+parquesRecreativos[i].superficie+
+                        "</div>" +
+                        "<div>"+
+                        "<div class=\"col-md-12\"><br><a href=\"#\" class=\"btn btn-sample\"><i class=\"fa fa-plus-circle\" aria-hidden=\"true\"></i> Info</a></div>"+
+                        "</div>"
 
-            setTimeout(function(){
-                document.getElementById('leyenda').style.visibility = "visible";
-            },1000);
+                    )
+                    infoWindow.open(map, marker);
+                }
+            })(marker, i));
+        }
+
+
+        var legend = document.getElementById('legend');
+        let aux = 0
+        for (var key in icons) {
+            var type = icons[key];
+            var name = type.name;
+            var id_icon = type.id
+            var icon = type.icon;
+            var div = document.createElement('div');
+
+            div.innerHTML = "<a href=\"/map/"+ id_icon +"\"><img class=\"leyenda\" width=\"10px\" height=\"10px\" src=\"" + icon + "\"> " + name+"<hr><a>";
+
+            legend.appendChild(div);
 
         }
+        map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(legend);
+
+        setTimeout(function(){
+            document.getElementById('leyenda').style.visibility = "visible";
+        },1000);
+
+    }
 
 </script>
 <script async defer

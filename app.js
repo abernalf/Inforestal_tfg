@@ -32,7 +32,6 @@ let auth = function(req, res, next) {
     Users.findOne({
         'nick': req.session.user
     }, function(err, obj) {
-        console.log(obj);
         if ((obj == null) && (req.user == null)) { //Para saber si viene de un login passport
             console.log("No hay user en la session");
             aux = 0;
@@ -44,7 +43,6 @@ let auth = function(req, res, next) {
             return res.redirect('/');
 
         } else {
-            console.log("aux =1");
             return next();
         }
 

@@ -8,7 +8,7 @@ let User = new Schema({
     nick            :   String,
     mail            :   String,
     password        :   String,
-    status          :   String
+    status          :   { type: String, default: '0' }
 
 });
 
