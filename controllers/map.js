@@ -32,12 +32,15 @@ exports.parquesRecreativos = function (req, res) {
 };
 
 exports.content = function (req, res) {
+    console.log("Parametro a filtrar");
 
+    console.log(req.params.id);
     ParquesRecreativos.findOne({ _id: req.params.id},function(err,obj){
         if(obj == null){
-            Senderos.findOne({},function(err,obj){
+            Senderos.findOne({_id: req.params.id},function(err,obj){
+                console.log("y devuelve este objeto");
                 console.log(obj);
-                res.render("edit",{senderos_ : obj, parquesRecreativos_ : null});
+                res.render("edit",{senderos_ : obj, parquesRecreativos_ : null, parquesInfantiles_ : null});
             })
         }
         else{

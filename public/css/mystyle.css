@@ -1,3 +1,7 @@
+body{
+    background-color: rgb(157, 191, 111)!important;
+
+}
 .topSocial ul li a {
     border-radius: 50%;
     color: #fff;
@@ -24,10 +28,7 @@
     box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.75);
 }
 
-.up_map{
-    position: absolute;
-    top:0px;
-}
+
 
 .back_black{
     background-color: rgb(255, 255, 255, .5);
@@ -36,12 +37,16 @@
 
 .card {
     margin-top: 4%;
+    margin-bottom: 4%;
     background-color: #ffffff;
     border-radius: 10px 10px 10px 10px;
     -webkit-box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.75);
     box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.75);
     border: 0px solid #000000;
+}
+.cardTransparent {
+    margin-top: 4%;
 }
 .card2 {
     margin-top: 12%;
@@ -124,4 +129,11 @@ hr {
     margin-bottom: 2px;
     border: 0;
     border-top: 1px solid #eee;
+}
+
+.edit{
+    margin-top: 10%;
+}
+.size{
+    font-size: 150%;
 }
