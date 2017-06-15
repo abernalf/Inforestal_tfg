@@ -7,7 +7,11 @@ const map = require('../controllers/map');
 api.get('/index', map.index);
 api.get('/senderos', map.senderos);
 api.get('/parquesRecreativos',map.parquesRecreativos);
+api.post('/comentario',map.pcomentarios);
 api.get('/:id',map.content);
+
+
+
 
 
 module.exports = api;

@@ -45,6 +45,12 @@ body{
     box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.75);
     border: 0px solid #000000;
 }
+.cardBorder {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+}
 .cardTransparent {
     margin-top: 4%;
 }
@@ -136,4 +142,22 @@ hr {
 }
 .size{
     font-size: 150%;
+}
+hr {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-right: 10%;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+.input:focus {
+    outline: none !important;
+    border:1px solid rgb(157, 191, 111);
+    box-shadow: 0 0 10px rgb(157, 191, 111);
+}
+
+textarea
+{
+    resize: none;
 }

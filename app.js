@@ -30,7 +30,7 @@ let auth = function(req, res, next) {
     let aux = 0;
     console.log(req.session);
     Users.findOne({
-        'nick': req.session.user
+        '_id': req.session.user
     }, function(err, obj) {
         if ((obj == null) && (req.user == null)) { //Para saber si viene de un login passport
             console.log("No hay user en la session");
@@ -49,9 +49,13 @@ let auth = function(req, res, next) {
     });
 
 };
-app.use('/map',map);
+app.use('/map',auth,map);
 app.use('/crud', routes);
 app.use('/',routes_user);
+
+app.post('/test',function(req,res){
+    res.send("Hola");
+});
 
 
 
